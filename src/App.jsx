@@ -10,8 +10,9 @@ const App = () => {
   return (
     <main>
     <section className="container">
-    <h3>{people.length} birthday is today</h3>
+    <h3>{people.length} birthdays today</h3>
     <List people= {people} />
+    <button type="button" className="btn btn-block" onClick={()=>setPeople([])}>Clear List</button>
     </section>    
     </main>
     
