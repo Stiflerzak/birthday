@@ -1,10 +1,4 @@
-
-
 const App = () => {
-  return (
-    <main>
-      <h2>Slider Starter</h2>
-    </main>
-  );
+  return <h2>Birthday Reminder - Starter</h2>;
 };
 export default App;
